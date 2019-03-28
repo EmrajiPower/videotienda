@@ -1,0 +1,77 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(154, 234, 255, 0.86);
+}
+
+header{
+  margin: 0;
+  background-image: linear-gradient(rgba(23, 99, 119, 0.86),rgba(66, 158, 182, 0.86),rgba(154, 234, 255, 0.86));
+}
+
+.info-container{
+  margin: -8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-container{
+  border-bottom: 2px;
+}
+
+.lista-container ol{
+  display: flex;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 0px;
+}
+
+.lista-container li{
+  list-style: none;
+  padding: 1px 50px;
+}
+
+.lista-container a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+
+/* .lista-container ol{
+  display: flex;
+  flex-direction: row;
+}
+
+#formato-impresion{
+  padding-left: 20px;
+} */
+
+.formulario-container{
+  padding: 25px 40px;
+  border-bottom: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario-container ol{
+  display: flex;
+  flex-direction: row;
+}
+
+.parte-formulario{
+  display: flex;
+  margin: 2em;
+  justify-content: center;
+}
+
+.columna-2 img{
+  background-size: cover;
+  align-self: flex-start;
+  margin: 5px 0;
+}
+
+.columna-1, .columna-2{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
